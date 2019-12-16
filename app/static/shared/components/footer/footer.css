@@ -1,0 +1,21 @@
+footer{ float: left; width: 100%; clear: both; margin: 30px 0 0 0; background: #fff; padding: 14px 0}
+footer .leftSec{ float: left; width:auto;}
+footer .rightSec{ float: right; width:auto;}
+
+footer img{
+      float: left;
+}
+
+
+.fixedFooter{
+    position: fixed;
+    bottom: 0;
+}
+
+@media only screen and (max-width: 600px) {
+
+footer {  padding: 14px 16px;}
+footer img{ width: 60px;}
+.marTop05{ margin-top: 5px !important; }
+
+}

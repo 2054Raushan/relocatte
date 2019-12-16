@@ -1,0 +1,37 @@
+/* a,abbr,address,b,blockquote,body,caption,cite,code,dd,del,dfn,div,dl,dt,em,fieldset,form,h1,h2,h3,h4,h5,h6,html,i,iframe,img,ins,kbd,label,legend,li,object,ol,p,pre,q,samp,small,span,strong,sub,sup,table,tbody,td,tfoot,th,thead,tr,ul,var{margin:0;padding:0;border:0}ol,ul{list-style:none}article,aside,dialog,figure,footer,header,nav,section{display:block}::-moz-selection{background-color:#005b9e;color:#fff}::selection{background-color:#005b9e;color:#fff} */
+
+
+body {
+	font-family: 'Roboto', sans-serif !important;
+	background: #ebeef0;
+	font-size: 14px;
+}
+
+::-webkit-scrollbar {
+	width: 8px
+}
+
+::-webkit-scrollbar-track {
+	background: #f1f1f1
+}
+
+::-webkit-scrollbar-thumb {
+	background: #888
+}
+
+::-webkit-scrollbar-thumb:hover {
+	background: #555
+}
+
+html { scroll-behavior: smooth; }
+
+.collapsible-header.active i{
+  -webkit-transform: rotate(180deg);     /* Chrome and other webkit browsers */
+  -moz-transform: rotate(180deg);        /* FF */
+  -o-transform: rotate(180deg);          /* Opera */
+  -ms-transform: rotate(180deg);         /* IE9 */
+  transform: rotate(180deg);
+}
+
+
+

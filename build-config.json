@@ -1,0 +1,15 @@
+{
+    "gaCode": {
+      "DEV": "UA-99600970-1",
+      "DEFAULT": "UA-99600970-1",
+      "PROD": "UA-102884253-1"
+    },
+    "gtmCode": {
+        "DEV": "",
+        "PROD": ""
+    },
+    "staticPath": {
+      "DEV": "/build/DEV/static",
+      "PROD": "cdn path"    
+    }
+}
